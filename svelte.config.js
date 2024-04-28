@@ -1,5 +1,5 @@
 import adapter from '@sveltejs/adapter-static';
-import { vitePreprocess } from '@sveltejs/kit/vite';
+import preprocess from 'svelte-preprocess';
 
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
@@ -7,6 +7,6 @@ const config = {
         appDir: 'app', // Required as the default is _app
         adapter: adapter()
     },
-    preprocess: vitePreprocess()
+    preprocess: preprocess()
 };
 export default config;
