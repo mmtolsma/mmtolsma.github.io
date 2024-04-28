@@ -1,2 +1,0 @@
-<h1>Gotta start Svelte somewhere</h1>
-
