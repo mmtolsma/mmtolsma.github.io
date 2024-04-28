@@ -10,14 +10,13 @@ const config = {
       // default options are shown, you can leave these out
       pages: 'build',
       assets: 'build',
-      fallback: 'index.html'
+      fallback: '404.html',
+      precompress: false,
+      strict: true
     }),
-    files: {
-      routes: 'src/routes',
-    },
-    paths: {
-      base: '/mysite', // The base path for your project
-    },
+		paths: {
+			base: process.argv.includes('dev') ? '' : process.env.BASE_PATH
+		}
 	}
 };
 
