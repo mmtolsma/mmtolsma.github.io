@@ -12,6 +12,7 @@ const config = {
       assets: 'build',
       fallback: 'index.html'
     }),
+    routes: 'src/routes',
     paths: {
       base: '/mysite', // The base path for your project
     },
