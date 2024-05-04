@@ -1,1 +1,2 @@
-<h1>Gotta start Svelte somewhere</h1>
+<h1>home</h1>
+<p>this is the home page.</p>
