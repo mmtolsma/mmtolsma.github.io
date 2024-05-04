@@ -4,9 +4,9 @@
 	"private": true,
 	"scripts": {
 		"dev": "vite dev",
-		"build": "vite build && cp .nojekyll build/",
+		"build": "vite build && copy .nojekyll build",
 		"preview": "vite preview",
-		"deploy": "npx gh-pages -d build",
+		"deploy": "npx gh-pages -d build -t true",
 		"lint": "prettier --check . && eslint .",
 		"format": "prettier --write ."
 	},
