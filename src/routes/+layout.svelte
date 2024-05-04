@@ -1,14 +1,14 @@
 <script>
+  import "../app.css";
   import NavCard from '../components/NavCard.svelte';
   import BodyCard from '../components/BodyCard.svelte';
-  import "../app.css";
 </script>
 
-<div class="container">
+<div class="mx-auto p-12 flex flex-row gap-5 min-h-screen">
   <div class="nav-card">
     <NavCard />
   </div>
-  <div class="body-card">
+  <div class="body-card flex-grow">
     <BodyCard>
       <slot />
     </BodyCard>
@@ -18,23 +18,9 @@
 <style>
   :global(body) {
     background-color: #040D12;
-    color: #FFFFFF;
+    color: white;
     overflow: hidden;
     margin: 0;
     box-sizing: border-box;
-  }
-
-  .container {
-    margin: auto;
-    padding: 50px 200px 50px 200px;
-    display: flex;
-    flex-direction: row;
-    gap: 20px;
-    min-height: 100vh;
-    box-sizing: border-box;
-  }
-
-  .body-card {
-    flex-grow: 1;
   }
 </style>
