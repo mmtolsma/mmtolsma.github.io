@@ -1,18 +1,14 @@
-<div class="body-card">
+<div class="body-card bg-[#183D3D] rounded-lg min-w-[800px]">
   <slot />
 </div>
 
 <style>
-  .body-card {
-    padding: 20px;
-    background: #183D3D;
-    border-radius: 10px;
-    height: 100%;
-  }
-
-  @media (max-width: 600px) {
+  /* @media (max-width: 600px) {
     .body-card {
-      padding: 5px;
+      padding: 1.25rem;
     }
-  }
+  } */
 </style>
+
+
+<!-- <div class="body-card bg-[#183D3D] p-5 rounded-lg h-full w-[1000px]"> -->
