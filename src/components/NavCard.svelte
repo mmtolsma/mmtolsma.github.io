@@ -27,21 +27,29 @@
 </script>
 
 <div class="rounded-lg min-w-[250px] bg-[#183D3D] h-full">
-  {#if $windowWidth >= 768}
-    <div class="flex flex-col items-center">
-      <img src="/profile-pic.png" class="my-3 rounded w-32 h-32" alt="Michael Tolsma smiling" />
-      <nav class="grid grid-cols-1">
-        {#each $navLinks as link}
-          <a href={link.url} class="button mb-2 text-center hover:bg-gray-700">{link.name}</a>
-        {/each}
-      </nav>
+  {#if windowWidth >= 768}
+    <div class="nav-card">
+      <div class="flex flex-col items-center">
+        <img src="/profile-pic.png" class=" my-3 rounded w-32 h-32" alt="Michael Tolsma smiling" />
+      </div>
+      <div>
+        <nav class="grid grid-cols-1">
+          {#each $navLinks as link}
+            <a href={link.url} class="button mb-2 text-center  hover:bg-gray-700">{link.name}</a>
+          {/each}
+        </nav>
+      </div>      
     </div>
   {:else}
-    <div class="flex flex-col">
+    <div class="nav-bar flex flex-col">
       <div class="px-2 flex justify-between items-center">
         <div>Michael Tolsma</div>
         <button on:click={handleClick} class="flex justify-end items-center">
-          <div class="{clicked ? 'p-3 fa fa-xmark text-2xl hover:bg-gray-700' : 'p-3 fa fa-bars text-2xl hover:bg-gray-700'}"></div>
+          {#if clicked}
+            <div class="p-3 fa fa-xmark text-2xl hover:bg-gray-700"></div>
+          {:else}
+            <div class="p-3 fa fa-bars text-2xl hover:bg-gray-700"></div>
+          {/if}
         </button>
       </div>
       {#if clicked}
@@ -51,6 +59,6 @@
           {/each}
         </div>
       {/if}
-    </div>
+    </div>  
   {/if}
 </div>
