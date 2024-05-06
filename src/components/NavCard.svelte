@@ -1,16 +1,16 @@
 <script>
-  import { onMount, onDestroy } from 'svelte';
+  import { onMount } from 'svelte';
   import { navLinks } from '../linksData.js';
-  import { writable } from 'svelte/store';
 
-  let windowWidth = writable(window.innerWidth);
+  let windowWidth;
   let clicked = false;
 
   function updateWidth() {
-    windowWidth.set(window.innerWidth);
+    windowWidth = window.innerWidth;
   }
 
   onMount(() => {
+    updateWidth();
     window.addEventListener('resize', updateWidth);
     return () => {
       window.removeEventListener('resize', updateWidth);
@@ -19,11 +19,11 @@
 
   const handleClick = () => {
     clicked = !clicked;
-  };
+  }
 
   const resetClick = () => {
     clicked = false;
-  };
+  }
 </script>
 
 <div class="rounded-lg min-w-[250px] bg-[#183D3D] h-full">
