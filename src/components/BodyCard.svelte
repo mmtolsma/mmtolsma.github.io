@@ -1,3 +1,3 @@
-<div class="body-card bg-[#183D3D] rounded-lg flex flex-col h-full">
+<div class="bg-base-card rounded-lg flex flex-col h-full">
   <slot />
 </div>
