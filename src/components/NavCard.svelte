@@ -18,7 +18,7 @@
     <div class="flex flex-col items-center">
       <img src="/profile-pic.png" class="mt-12 mb-5 rounded w-32 h-32" alt="Michael Tolsma smiling" />
       <div class="font-bold mb-2">
-        Michael Marinus Tolsma
+        Michael M. Tolsma
       </div>
       <div class="py-1 px-2 mb-5 text-sm rounded-lg bg-gray-700">
         Full Stack Developer
@@ -34,14 +34,14 @@
   </div>
   <!-- Mobile -->
   <div class="md:hidden flex flex-col">
-    <div class="grid grid-cols-3 items-center w-full">
-      <div class="flex items-center space-x-2 col-span-2 ml-5">
+    <div class="grid grid-cols-6 items-center w-full">
+      <div class="flex items-center space-x-2 col-span-5 ml-5">
         <img src="/profile-pic.png" class="rounded w-10 h-10" alt="Michael Tolsma smiling" />
         <div class="font-bold">
-          Michael Marinus Tolsma
+          Michael M. Tolsma
         </div>
       </div>
-      <div class="flex justify-end">
+      <div class="flex justify-end mr-3">
         <button on:click={handleClick} class="flex items-center">
           {#if clicked}
             <div class="p-3 fa fa-xmark text-2xl hover:bg-gray-300 hover:text-gray-700"></div>
