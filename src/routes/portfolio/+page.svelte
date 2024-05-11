@@ -1,2 +1,9 @@
-<h1>portfolio</h1>
-<p>this is the about page.</p>
+<script>
+  import Heading from "../../components/Heading.svelte";
+</script>
+
+<Heading>
+  <span>Portfolio</span>
+</Heading>
+
+<p>this is the portfolio page.</p>
