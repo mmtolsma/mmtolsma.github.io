@@ -1,26 +1,4 @@
-<!doctype html>
-<html lang="en">
-	<head>
-		<meta charset="utf-8" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-		<link rel="icon" href="./favicon.png" />
-		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		
-		<link href="./_app/immutable/assets/0.tjwy1Sku.css" rel="stylesheet">
-		<link rel="modulepreload" href="./_app/immutable/entry/start.C7eWl2eF.js">
-		<link rel="modulepreload" href="./_app/immutable/chunks/entry.DbWYq2Q4.js">
-		<link rel="modulepreload" href="./_app/immutable/chunks/scheduler.DypdDQBO.js">
-		<link rel="modulepreload" href="./_app/immutable/chunks/index.BPobQwWL.js">
-		<link rel="modulepreload" href="./_app/immutable/entry/app.CiaQ6fIz.js">
-		<link rel="modulepreload" href="./_app/immutable/chunks/index.6f8PbfyY.js">
-		<link rel="modulepreload" href="./_app/immutable/nodes/0.CV1xF78z.js">
-		<link rel="modulepreload" href="./_app/immutable/chunks/stores.2BIi5YNg.js">
-		<link rel="modulepreload" href="./_app/immutable/chunks/linksData.wvTiHm_X.js">
-		<link rel="modulepreload" href="./_app/immutable/nodes/3.DkHdJDUv.js">
-		<link rel="modulepreload" href="./_app/immutable/chunks/Heading.BnLKFooO.js">
-	</head>
-	<body data-sveltekit-preload-data="hover" class="bg-[#111111] text-white">
-		<div style="display: contents">  <div class="flex min-h-screen md:container md:h-screen md:py-10 md:mx-auto"><div class="flex flex-col flex-1 gap-5 md:flex-row"> <div class="sticky top-0"><div class="bg-base-card rounded-lg md:min-w-[250px] h-full">  <div class="hidden md:block"><div class="flex flex-col items-center"><img src="/profile-pic.png" class="mt-12 mb-5 rounded w-32 h-32" alt="Michael Tolsma smiling"> <div class="font-bold mb-2" data-svelte-h="svelte-1s7sxmy">Michael Marinus Tolsma</div> <div class="py-1 px-2 mb-5 text-sm rounded-lg bg-gray-700" data-svelte-h="svelte-rrz62h">Full Stack Developer</div> <nav class="grid grid-cols-1 gap-1"><a href="/" class="button mb-2 text-center bg-gray-700 hover:bg-gray-300 hover:text-gray-700 py-2 px-12 rounded-md w-full">Home </a><a href="/about" class="button mb-2 text-center bg-gray-700 hover:bg-gray-300 hover:text-gray-700 py-2 px-12 rounded-md w-full">About </a><a href="/resume" class="button mb-2 text-center bg-gray-700 hover:bg-gray-300 hover:text-gray-700 py-2 px-12 rounded-md w-full">Resume </a><a href="/portfolio" class="button mb-2 text-center bg-gray-700 hover:bg-gray-300 hover:text-gray-700 py-2 px-12 rounded-md w-full">Portfolio </a><a href="/contact" class="button mb-2 text-center bg-gray-700 hover:bg-gray-300 hover:text-gray-700 py-2 px-12 rounded-md w-full">Contact </a></nav></div></div>  <div class="md:hidden flex flex-col"><div class="grid grid-cols-3 items-center w-full"><div class="flex items-center space-x-2 col-span-2 ml-5" data-svelte-h="svelte-1kouox6"><img src="/profile-pic.png" class="rounded w-10 h-10" alt="Michael Tolsma smiling"> <div class="font-bold">Michael Marinus Tolsma</div></div> <div class="flex justify-end"><button class="flex items-center"><div class="p-3 fa fa-bars text-2xl hover:bg-gray-300 hover:text-gray-700"></div></button></div></div> </div></div></div>  <div class="bg-base-card rounded-lg p-5 flex-1 overflow-auto"><div class="flex flex-col h-full"><div><div><h1 class="text-4xl mb-3"><span data-svelte-h="svelte-1jooj87">About Me</span></h1> <div class="w-12 h-1 rounded bg-yellow-500 mb-3"></div></div></div> <div class="flex-1 overflow-y-auto" data-svelte-h="svelte-monx8d"><p>I am a passionate full-stack developer with three years of professional experience in creating
+import{s as h,n as g}from"../chunks/scheduler.DypdDQBO.js";import{S as x,i as f,e as l,n as A,s as L,c as n,a as T,o as _,d as u,f as v,k as q,l as $,g as p,p as b,q as w,r as y,u as C}from"../chunks/index.6f8PbfyY.js";import{H as S}from"../chunks/Heading.BnLKFooO.js";function k(m){let e,t="About Me";return{c(){e=l("span"),e.textContent=t},l(a){e=n(a,"SPAN",{"data-svelte-h":!0}),q(e)!=="svelte-1jooj87"&&(e.textContent=t)},m(a,r){p(a,e,r)},p:g,d(a){a&&u(e)}}}function H(m){let e,t,a,r,d=`<p>I am a passionate full-stack developer with three years of professional experience in creating
 		and maintaining robust software solutions. Skilled in JavaScript with React for the front-end
 		and Ruby on Rails for the back-end, I excel in developing fully integrated applications that
 		meet diverse business needs. Lorem ipsum dolor sit amet, consectetur adipisicing elit. At
@@ -91,31 +69,4 @@
 		corporis, harum id aliquid tempore nemo? Tenetur neque saepe laudantium molestias expedita
 		soluta, iure ullam corrupti? Lorem ipsum dolor sit amet, consectetur adipisicing elit. At
 		repellendus perspiciatis totam praesentium et corporis, harum id aliquid tempore nemo? Tenetur
-		neque saepe laudantium molestias expedita soluta, iure ullam corrupti?</p></div> </div></div></div></div> 
-			
-			<script>
-				{
-					__sveltekit_13fn712 = {
-						base: new URL(".", location).pathname.slice(0, -1)
-					};
-
-					const element = document.currentScript.parentElement;
-
-					const data = [null,null];
-
-					Promise.all([
-						import("./_app/immutable/entry/start.C7eWl2eF.js"),
-						import("./_app/immutable/entry/app.CiaQ6fIz.js")
-					]).then(([kit, app]) => {
-						kit.start(app, element, {
-							node_ids: [0, 3],
-							data,
-							form: null,
-							error: null
-						});
-					});
-				}
-			</script>
-		</div>
-	</body>
-</html>
+		neque saepe laudantium molestias expedita soluta, iure ullam corrupti?</p>`,o;return t=new S({props:{$$slots:{default:[k]},$$scope:{ctx:m}}}),{c(){e=l("div"),A(t.$$.fragment),a=L(),r=l("div"),r.innerHTML=d,this.h()},l(i){e=n(i,"DIV",{});var s=T(e);_(t.$$.fragment,s),s.forEach(u),a=v(i),r=n(i,"DIV",{class:!0,"data-svelte-h":!0}),q(r)!=="svelte-monx8d"&&(r.innerHTML=d),this.h()},h(){$(r,"class","flex-1 overflow-y-auto")},m(i,s){p(i,e,s),b(t,e,null),p(i,a,s),p(i,r,s),o=!0},p(i,[s]){const c={};s&1&&(c.$$scope={dirty:s,ctx:i}),t.$set(c)},i(i){o||(w(t.$$.fragment,i),o=!0)},o(i){y(t.$$.fragment,i),o=!1},d(i){i&&(u(e),u(a),u(r)),C(t)}}}class j extends x{constructor(e){super(),f(this,e,null,H,h,{})}}export{j as component};
