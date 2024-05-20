@@ -18,7 +18,7 @@
 				<NavCard />
 			</div>
       <!-- Body -->
-			<div class="bg-base-card rounded-lg p-5 flex-1 overflow-auto">
+			<div class="bg-base-card rounded-lg px-5 md:px-2 py-5 flex-1 overflow-auto">
 				<div class="flex flex-col h-full">
           <slot />
         </div>

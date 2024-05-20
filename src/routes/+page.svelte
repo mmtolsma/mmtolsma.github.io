@@ -40,7 +40,7 @@
     <div class="mb-5 {transitionClass} delay-[1500ms]">
       <nav class="md:flex md:flex-rows-1 grid grid-cols-1 gap-1">
         {#each filteredLinks as link}
-          <a href={link.url} class="button mb-2 text-center bg-gray-700 hover:bg-gray-300 hover:text-gray-700 text-lg py-4 px-24 md:text-md md:py-2 md:px-10 rounded-lg w-full">
+          <a href={link.url} class="button mb-2 text-center bg-gray-700 hover:bg-gray-300 hover:text-gray-700 text-lg py-4 px-24 md:text-md md:py-2 md:px-10 rounded-lg w-full md:w-40">
             {link.name}
           </a>
         {/each}

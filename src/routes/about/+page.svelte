@@ -9,7 +9,7 @@
 </div>
 
 <div class="flex-1 overflow-y-auto">
-	<p>
+	<p class="md:mx-5">
 		I am a passionate full-stack developer with three years of professional experience in creating
 		and maintaining robust software solutions. Skilled in JavaScript with React for the front-end
 		and Ruby on Rails for the back-end, I excel in developing fully integrated applications that
