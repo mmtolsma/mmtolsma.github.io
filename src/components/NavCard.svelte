@@ -17,7 +17,7 @@
   }
 
   $: getMobileButtonStyle = (link) => {
-    return `block px-3 py-2 text-base font-medium text-white ${($page.url.pathname == link.url) ? 'bg-yellow-500 text-gray-700' : 'hover:bg-gray-300 hover:text-gray-700'}`;
+    return `block px-3 py-2 text-base font-medium ${($page.url.pathname == link.url) ? 'bg-yellow-500 text-gray-700' : 'hover:bg-gray-300 hover:text-gray-700'}`;
   }
 </script>
 
