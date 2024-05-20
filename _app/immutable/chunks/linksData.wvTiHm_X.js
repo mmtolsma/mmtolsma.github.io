@@ -1,1 +1,0 @@
-import{r as u}from"./index.BPobQwWL.js";function e(n){return(n==null?void 0:n.length)!==void 0?n:Array.from(n)}const s=u([{name:"Home",url:"/"},{name:"About",url:"/about"},{name:"Resume",url:"/resume"},{name:"Portfolio",url:"/portfolio"},{name:"Contact",url:"/contact"}]);export{e,s as n};
