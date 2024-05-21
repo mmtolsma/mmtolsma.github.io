@@ -7,7 +7,9 @@
 </Heading>
 
 <div class="flex-1 overflow-y-auto">
-	<p class="md:mx-5">
-    this is the portfolio page.
-  </p>
+	<div class="md:mx-5">
+    <p>
+      this is the portfolio page.
+    </p>
+  </div>
 </div>

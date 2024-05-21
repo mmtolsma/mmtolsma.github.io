@@ -9,80 +9,82 @@
 </div>
 
 <div class="flex-1 overflow-y-auto">
-	<p class="md:mx-5">
-		I am a passionate full-stack developer with three years of professional experience in creating
-		and maintaining robust software solutions. Skilled in JavaScript with React for the front-end
-		and Ruby on Rails for the back-end, I excel in developing fully integrated applications that
-		meet diverse business needs. Lorem ipsum dolor sit amet, consectetur adipisicing elit. At
-		repellendus perspiciatis totam praesentium et corporis, harum id aliquid tempore nemo? Tenetur
-		neque saepe laudantium molestias expedita soluta, iure ullam corrupti? Lorem ipsum dolor sit
-		amet, consectetur adipisicing elit. At repellendus perspiciatis totam praesentium et corporis,
-		harum id aliquid tempore nemo? Tenetur neque saepe laudantium molestias expedita soluta, iure
-		ullam corrupti? Lorem ipsum dolor sit amet, consectetur adipisicing elit. At repellendus
-		perspiciatis totam praesentium et corporis, harum id aliquid tempore nemo? Tenetur neque saepe
-		laudantium molestias expedita soluta, iure ullam corrupti? Lorem ipsum dolor sit amet,
-		consectetur adipisicing elit. At repellendus perspiciatis totam praesentium et corporis, harum
-		id aliquid tempore nemo? Tenetur neque saepe laudantium molestias expedita soluta, iure ullam
-		corrupti? Lorem ipsum dolor sit amet, consectetur adipisicing elit. At repellendus perspiciatis
-		totam praesentium et corporis, harum id aliquid tempore nemo? Tenetur neque saepe laudantium
-		molestias expedita soluta, iure ullam corrupti? Lorem ipsum dolor sit amet, consectetur
-		adipisicing elit. At repellendus perspiciatis totam praesentium et corporis, harum id aliquid
-		tempore nemo? Tenetur neque saepe laudantium molestias expedita soluta, iure ullam corrupti?
-		Lorem ipsum dolor sit amet, consectetur adipisicing elit. At repellendus perspiciatis totam
-		praesentium et corporis, harum id aliquid tempore nemo? Tenetur neque saepe laudantium molestias
-		expedita soluta, iure ullam corrupti? Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-		At repellendus perspiciatis totam praesentium et corporis, harum id aliquid tempore nemo?
-		Tenetur neque saepe laudantium molestias expedita soluta, iure ullam corrupti? Lorem ipsum dolor
-		sit amet, consectetur adipisicing elit. At repellendus perspiciatis totam praesentium et
-		corporis, harum id aliquid tempore nemo? Tenetur neque saepe laudantium molestias expedita
-		soluta, iure ullam corrupti? Lorem ipsum dolor sit amet, consectetur adipisicing elit. At
-		repellendus perspiciatis totam praesentium et corporis, harum id aliquid tempore nemo? Tenetur
-		neque saepe laudantium molestias expedita soluta, iure ullam corrupti? Lorem ipsum dolor sit
-		amet, consectetur adipisicing elit. At repellendus perspiciatis totam praesentium et corporis,
-		harum id aliquid tempore nemo? Tenetur neque saepe laudantium molestias expedita soluta, iure
-		ullam corrupti? Lorem ipsum dolor sit amet, consectetur adipisicing elit. At repellendus
-		perspiciatis totam praesentium et corporis, harum id aliquid tempore nemo? Tenetur neque saepe
-		laudantium molestias expedita soluta, iure ullam corrupti? Lorem ipsum dolor sit amet,
-		consectetur adipisicing elit. At repellendus perspiciatis totam praesentium et corporis, harum
-		id aliquid tempore nemo? Tenetur neque saepe laudantium molestias expedita soluta, iure ullam
-		corrupti? Lorem ipsum dolor sit amet, consectetur adipisicing elit. At repellendus perspiciatis
-		totam praesentium et corporis, harum id aliquid tempore nemo? Tenetur neque saepe laudantium
-		molestias expedita soluta, iure ullam corrupti? Lorem ipsum dolor sit amet, consectetur
-		adipisicing elit. At repellendus perspiciatis totam praesentium et corporis, harum id aliquid
-		tempore nemo? Tenetur neque saepe laudantium molestias expedita soluta, iure ullam corrupti?
-		Lorem ipsum dolor sit amet, consectetur adipisicing elit. At repellendus perspiciatis totam
-		praesentium et corporis, harum id aliquid tempore nemo? Tenetur neque saepe laudantium molestias
-		expedita soluta, iure ullam corrupti? Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-		At repellendus perspiciatis totam praesentium et corporis, harum id aliquid tempore nemo?
-		Tenetur neque saepe laudantium molestias expedita soluta, iure ullam corrupti? Lorem ipsum dolor
-		sit amet, consectetur adipisicing elit. At repellendus perspiciatis totam praesentium et
-		corporis, harum id aliquid tempore nemo? Tenetur neque saepe laudantium molestias expedita
-		soluta, iure ullam corrupti? Lorem ipsum dolor sit amet, consectetur adipisicing elit. At
-		repellendus perspiciatis totam praesentium et corporis, harum id aliquid tempore nemo? Tenetur
-		neque saepe laudantium molestias expedita soluta, iure ullam corrupti? Lorem ipsum dolor sit
-		amet, consectetur adipisicing elit. At repellendus perspiciatis totam praesentium et corporis,
-		harum id aliquid tempore nemo? Tenetur neque saepe laudantium molestias expedita soluta, iure
-		ullam corrupti? Lorem ipsum dolor sit amet, consectetur adipisicing elit. At repellendus
-		perspiciatis totam praesentium et corporis, harum id aliquid tempore nemo? Tenetur neque saepe
-		laudantium molestias expedita soluta, iure ullam corrupti? Lorem ipsum dolor sit amet,
-		consectetur adipisicing elit. At repellendus perspiciatis totam praesentium et corporis, harum
-		id aliquid tempore nemo? Tenetur neque saepe laudantium molestias expedita soluta, iure ullam
-		corrupti? Lorem ipsum dolor sit amet, consectetur adipisicing elit. At repellendus perspiciatis
-		totam praesentium et corporis, harum id aliquid tempore nemo? Tenetur neque saepe laudantium
-		molestias expedita soluta, iure ullam corrupti? Lorem ipsum dolor sit amet, consectetur
-		adipisicing elit. At repellendus perspiciatis totam praesentium et corporis, harum id aliquid
-		tempore nemo? Tenetur neque saepe laudantium molestias expedita soluta, iure ullam corrupti?
-		Lorem ipsum dolor sit amet, consectetur adipisicing elit. At repellendus perspiciatis totam
-		praesentium et corporis, harum id aliquid tempore nemo? Tenetur neque saepe laudantium molestias
-		expedita soluta, iure ullam corrupti? Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-		At repellendus perspiciatis totam praesentium et corporis, harum id aliquid tempore nemo?
-		Tenetur neque saepe laudantium molestias expedita soluta, iure ullam corrupti? Lorem ipsum dolor
-		sit amet, consectetur adipisicing elit. At repellendus perspiciatis totam praesentium et
-		corporis, harum id aliquid tempore nemo? Tenetur neque saepe laudantium molestias expedita
-		soluta, iure ullam corrupti? Lorem ipsum dolor sit amet, consectetur adipisicing elit. At
-		repellendus perspiciatis totam praesentium et corporis, harum id aliquid tempore nemo? Tenetur
-		neque saepe laudantium molestias expedita soluta, iure ullam corrupti?
-	</p>
+  <div class="md:mx-5">
+    <p>
+      I am a passionate full-stack developer with three years of professional experience in creating
+      and maintaining robust software solutions. Skilled in JavaScript with React for the front-end
+      and Ruby on Rails for the back-end, I excel in developing fully integrated applications that
+      meet diverse business needs. Lorem ipsum dolor sit amet, consectetur adipisicing elit. At
+      repellendus perspiciatis totam praesentium et corporis, harum id aliquid tempore nemo? Tenetur
+      neque saepe laudantium molestias expedita soluta, iure ullam corrupti? Lorem ipsum dolor sit
+      amet, consectetur adipisicing elit. At repellendus perspiciatis totam praesentium et corporis,
+      harum id aliquid tempore nemo? Tenetur neque saepe laudantium molestias expedita soluta, iure
+      ullam corrupti? Lorem ipsum dolor sit amet, consectetur adipisicing elit. At repellendus
+      perspiciatis totam praesentium et corporis, harum id aliquid tempore nemo? Tenetur neque saepe
+      laudantium molestias expedita soluta, iure ullam corrupti? Lorem ipsum dolor sit amet,
+      consectetur adipisicing elit. At repellendus perspiciatis totam praesentium et corporis, harum
+      id aliquid tempore nemo? Tenetur neque saepe laudantium molestias expedita soluta, iure ullam
+      corrupti? Lorem ipsum dolor sit amet, consectetur adipisicing elit. At repellendus perspiciatis
+      totam praesentium et corporis, harum id aliquid tempore nemo? Tenetur neque saepe laudantium
+      molestias expedita soluta, iure ullam corrupti? Lorem ipsum dolor sit amet, consectetur
+      adipisicing elit. At repellendus perspiciatis totam praesentium et corporis, harum id aliquid
+      tempore nemo? Tenetur neque saepe laudantium molestias expedita soluta, iure ullam corrupti?
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. At repellendus perspiciatis totam
+      praesentium et corporis, harum id aliquid tempore nemo? Tenetur neque saepe laudantium molestias
+      expedita soluta, iure ullam corrupti? Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+      At repellendus perspiciatis totam praesentium et corporis, harum id aliquid tempore nemo?
+      Tenetur neque saepe laudantium molestias expedita soluta, iure ullam corrupti? Lorem ipsum dolor
+      sit amet, consectetur adipisicing elit. At repellendus perspiciatis totam praesentium et
+      corporis, harum id aliquid tempore nemo? Tenetur neque saepe laudantium molestias expedita
+      soluta, iure ullam corrupti? Lorem ipsum dolor sit amet, consectetur adipisicing elit. At
+      repellendus perspiciatis totam praesentium et corporis, harum id aliquid tempore nemo? Tenetur
+      neque saepe laudantium molestias expedita soluta, iure ullam corrupti? Lorem ipsum dolor sit
+      amet, consectetur adipisicing elit. At repellendus perspiciatis totam praesentium et corporis,
+      harum id aliquid tempore nemo? Tenetur neque saepe laudantium molestias expedita soluta, iure
+      ullam corrupti? Lorem ipsum dolor sit amet, consectetur adipisicing elit. At repellendus
+      perspiciatis totam praesentium et corporis, harum id aliquid tempore nemo? Tenetur neque saepe
+      laudantium molestias expedita soluta, iure ullam corrupti? Lorem ipsum dolor sit amet,
+      consectetur adipisicing elit. At repellendus perspiciatis totam praesentium et corporis, harum
+      id aliquid tempore nemo? Tenetur neque saepe laudantium molestias expedita soluta, iure ullam
+      corrupti? Lorem ipsum dolor sit amet, consectetur adipisicing elit. At repellendus perspiciatis
+      totam praesentium et corporis, harum id aliquid tempore nemo? Tenetur neque saepe laudantium
+      molestias expedita soluta, iure ullam corrupti? Lorem ipsum dolor sit amet, consectetur
+      adipisicing elit. At repellendus perspiciatis totam praesentium et corporis, harum id aliquid
+      tempore nemo? Tenetur neque saepe laudantium molestias expedita soluta, iure ullam corrupti?
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. At repellendus perspiciatis totam
+      praesentium et corporis, harum id aliquid tempore nemo? Tenetur neque saepe laudantium molestias
+      expedita soluta, iure ullam corrupti? Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+      At repellendus perspiciatis totam praesentium et corporis, harum id aliquid tempore nemo?
+      Tenetur neque saepe laudantium molestias expedita soluta, iure ullam corrupti? Lorem ipsum dolor
+      sit amet, consectetur adipisicing elit. At repellendus perspiciatis totam praesentium et
+      corporis, harum id aliquid tempore nemo? Tenetur neque saepe laudantium molestias expedita
+      soluta, iure ullam corrupti? Lorem ipsum dolor sit amet, consectetur adipisicing elit. At
+      repellendus perspiciatis totam praesentium et corporis, harum id aliquid tempore nemo? Tenetur
+      neque saepe laudantium molestias expedita soluta, iure ullam corrupti? Lorem ipsum dolor sit
+      amet, consectetur adipisicing elit. At repellendus perspiciatis totam praesentium et corporis,
+      harum id aliquid tempore nemo? Tenetur neque saepe laudantium molestias expedita soluta, iure
+      ullam corrupti? Lorem ipsum dolor sit amet, consectetur adipisicing elit. At repellendus
+      perspiciatis totam praesentium et corporis, harum id aliquid tempore nemo? Tenetur neque saepe
+      laudantium molestias expedita soluta, iure ullam corrupti? Lorem ipsum dolor sit amet,
+      consectetur adipisicing elit. At repellendus perspiciatis totam praesentium et corporis, harum
+      id aliquid tempore nemo? Tenetur neque saepe laudantium molestias expedita soluta, iure ullam
+      corrupti? Lorem ipsum dolor sit amet, consectetur adipisicing elit. At repellendus perspiciatis
+      totam praesentium et corporis, harum id aliquid tempore nemo? Tenetur neque saepe laudantium
+      molestias expedita soluta, iure ullam corrupti? Lorem ipsum dolor sit amet, consectetur
+      adipisicing elit. At repellendus perspiciatis totam praesentium et corporis, harum id aliquid
+      tempore nemo? Tenetur neque saepe laudantium molestias expedita soluta, iure ullam corrupti?
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. At repellendus perspiciatis totam
+      praesentium et corporis, harum id aliquid tempore nemo? Tenetur neque saepe laudantium molestias
+      expedita soluta, iure ullam corrupti? Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+      At repellendus perspiciatis totam praesentium et corporis, harum id aliquid tempore nemo?
+      Tenetur neque saepe laudantium molestias expedita soluta, iure ullam corrupti? Lorem ipsum dolor
+      sit amet, consectetur adipisicing elit. At repellendus perspiciatis totam praesentium et
+      corporis, harum id aliquid tempore nemo? Tenetur neque saepe laudantium molestias expedita
+      soluta, iure ullam corrupti? Lorem ipsum dolor sit amet, consectetur adipisicing elit. At
+      repellendus perspiciatis totam praesentium et corporis, harum id aliquid tempore nemo? Tenetur
+      neque saepe laudantium molestias expedita soluta, iure ullam corrupti?
+    </p>
+  </div>
 </div>
 
 <!-- I am a passionate software developer with over 6 years of professional experience in creating and deploying innovative software solutions. 
