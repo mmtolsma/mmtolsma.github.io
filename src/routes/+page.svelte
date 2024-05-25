@@ -20,7 +20,7 @@
   $: transitionClass = `transition-opacity ease-in-out duration-1000 ${loaded ? 'opacity-100' : 'opacity-0'}`;
 </script>
 
-<div class="bg-base-card rounded-lg flex flex-col h-full">
+<div class="bg-base-card border border-card-border rounded-2xl flex flex-col h-full">
   <div class="flex flex-col items-center justify-center h-full">
     <div class="{transitionClass} delay-[500ms]">
       <!-- desktop -->

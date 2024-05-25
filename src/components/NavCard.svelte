@@ -21,17 +21,14 @@
   }
 </script>
 
-<div class="bg-base-card rounded-lg md:min-w-[250px] h-full">
+<div class="bg-base-card border border-card-border rounded-2xl h-full sm:px-5 sm:pt-5 lg:pt-7">
   <!-- Desktop -->
-  <div class="hidden md:block">
+  <div class="hidden lg:block">
     <div class="flex flex-col items-center">
-      <img src="/profile-pic.png" class="mt-7 mb-5 rounded w-32 h-32" alt="Michael Tolsma smiling" />
-      <div class="font-bold mb-2">
-        Michael M. Tolsma
-      </div>
-      <div class="py-1 px-2 mb-5 text-sm rounded-lg bg-gray-700">
-        Full Stack Developer
-      </div>
+      <img src="/profile-pic.png" class="mb-3 rounded w-32 h-32" alt="Michael Tolsma smiling" />
+      <div class="text-2xl font-bold mb-3">Michael M. Tolsma</div>
+      <div class="py-1 px-2 mb-5 text-sm rounded-lg bg-gray-700">Full Stack Developer</div>
+      <span class="flex-grow mb-5 border-t border-gray-700 w-full"></span>
       <nav class="grid grid-cols-1 gap-1">
         {#each $navLinks as link}
           <a 
@@ -43,8 +40,39 @@
       </nav>
     </div> 
   </div>
+  <!-- Tablet -->
+  <div class="hidden sm:block lg:hidden">
+    <div class="flex items-center">
+      <img src="/profile-pic.png" class="mb-5 rounded w-32 h-32" alt="Michael Tolsma smiling" />
+      <div class="ml-4">
+        <div class="text-2xl font-bold mb-3">Michael M. Tolsma</div>
+        <div class="inline-block text-sm rounded-lg bg-gray-700 px-2 py-1">Full Stack Developer</div>
+      </div>
+      <div class="absolute top-0 right-0 mr-3">
+        <button on:click={handleClick} class="flex items-center">
+          {#if clicked}
+            <div class="p-3 fa fa-xmark text-2xl hover:bg-gray-300 hover:text-gray-700"></div>
+          {:else}
+            <div class="p-3 fa fa-bars text-2xl hover:bg-gray-300 hover:text-gray-700"></div>
+          {/if}
+        </button>
+      </div>
+      {#if clicked}
+      <div class="absolute right-0 mt-40 mr-3 w-48 bg-info-card space-y-1 py-2 px-2 z-50">
+        {#each $navLinks as link}
+          <a             
+            href={($page.url.pathname == link.url) ? null : link.url} 
+            on:click={resetClick} 
+            class={getMobileButtonStyle(link)}>
+            {link.name}
+          </a>
+        {/each}
+      </div>
+      {/if}
+    </div>       
+  </div>  
   <!-- Mobile -->
-  <div class="md:hidden flex flex-col">
+  <div class="sm:hidden flex flex-col">
     <div class="grid grid-cols-6 items-center w-full">
       <div class="flex items-center space-x-2 col-span-5 ml-5">
         <img src="/profile-pic.png" class="rounded w-10 h-10" alt="Michael Tolsma smiling" />

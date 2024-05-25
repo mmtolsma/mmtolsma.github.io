@@ -5,6 +5,7 @@ export default {
     extend: {
       colors: {
         'base-card': '#1E1E1F',
+        'card-border': '#444546',
         'info-card': '#333333',
       }
     }
