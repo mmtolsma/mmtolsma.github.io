@@ -7,6 +7,11 @@ export default {
         'base-card': '#1E1E1F',
         'card-border': '#444546',
         'info-card': '#333333',
+      },
+      fontSize: {
+        'xxs': ['0.625rem', {
+          lineHeight: '0.75rem'
+        }],
       }
     }
   },

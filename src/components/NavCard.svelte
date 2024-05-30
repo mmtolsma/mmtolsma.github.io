@@ -21,7 +21,7 @@
   }
 </script>
 
-<div class="bg-base-card border border-card-border rounded-2xl h-full sm:px-5 sm:pt-5 lg:pt-7">
+<div class="bg-base-card border border-card-border rounded-2xl h-full py-1 sm:px-4 sm:py-4 lg:px-5 lg:pt-5">
   <!-- Desktop -->
   <div class="hidden lg:block">
     <div class="flex flex-col items-center">
@@ -43,7 +43,7 @@
   <!-- Tablet -->
   <div class="hidden sm:block lg:hidden">
     <div class="flex items-center">
-      <img src="/profile-pic.png" class="mb-5 rounded w-32 h-32" alt="Michael Tolsma smiling" />
+      <img src="/profile-pic.png" class="rounded w-20 h-20" alt="Michael Tolsma smiling" />
       <div class="ml-4">
         <div class="text-2xl font-bold mb-3">Michael M. Tolsma</div>
         <div class="inline-block text-sm rounded-lg bg-gray-700 px-2 py-1">Full Stack Developer</div>
@@ -58,7 +58,7 @@
         </button>
       </div>
       {#if clicked}
-      <div class="absolute right-0 mt-40 mr-3 w-48 bg-info-card space-y-1 py-2 px-2 z-50">
+      <div class="absolute right-0 mt-56 mr-3 w-48 bg-info-card space-y-1 py-2 px-2 z-50">
         {#each $navLinks as link}
           <a             
             href={($page.url.pathname == link.url) ? null : link.url} 
@@ -75,9 +75,10 @@
   <div class="sm:hidden flex flex-col">
     <div class="grid grid-cols-6 items-center w-full">
       <div class="flex items-center space-x-2 col-span-5 ml-5">
-        <img src="/profile-pic.png" class="rounded w-10 h-10" alt="Michael Tolsma smiling" />
-        <div class="font-bold">
-          Michael M. Tolsma
+        <img src="/profile-pic.png" class="rounded w-12 h-12" alt="Michael Tolsma smiling" />
+        <div class="ml-4">
+          <div class="font-bold">Michael M. Tolsma</div>
+          <div class="inline-block text-xxs rounded-lg bg-gray-700 p-1">Full Stack Developer</div>
         </div>
       </div>
       <div class="flex justify-end mr-3">

@@ -29,9 +29,9 @@
       </div>
       <!-- mobile -->
       <div class="md:hidden block mb-5">
+        <h2 class="text-2xl sm:text-4xl text-center">Welcome to</h2>
         <h1 class="text-2xl sm:text-4xl text-center"><b>Michael M. Tolsma's</b></h1>
         <h2 class="text-2xl sm:text-4xl text-center">website</h2>
-        <h2 class="text-2xl sm:text-4xl text-center">Welcome to</h2>
       </div>
     </div>
     <div class="mb-5 {transitionClass} delay-[1250ms]">  
