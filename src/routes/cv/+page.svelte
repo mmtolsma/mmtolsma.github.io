@@ -7,7 +7,7 @@
 </Heading>
 
 <div class="flex-1 overflow-y-auto">
-  <div class="mx-3 sm:mx-5">
+  <div class="mx-3 mb-5 sm:mx-5">
     
     <div class="flex flex-col gap-3 justify-between xl:justify-normal">
       <div class="education">
@@ -71,19 +71,33 @@
         </div>
       </div>
 
+      <!-- No idea how to show my skills accurately. -->
+      <!-- Not comfortable showing percentages because I have no idea what percent I am. -->
       <div class="skills mb-5">
         <div class="items-center justify-center mb-2">
           <span class="text-2xl lg:text-3xl text-yellow-500 fa fa-wrench mr-1"></span>
           <span class="text-2xl lg:text-3xl font-bold">My Skills</span>
         </div>
-        <p>Ruby/Ruby on Rails - Backend development</p>
-        <p>Javascript/React - Frontend development</p>
-        <p>Bootstrap</p>
-        <p>Sveltekit - Basic</p> 
-        <p>Tailwind - Basic</p> 
+        <div class="grid grid-cols-2 md:grid-cols-3 gap-2">
+          <div class="flex flex-row items-center gap-2">
+            <img src="/ruby.svg" alt="Ruby Logo" class="w-8 h-8" />
+            <p>Ruby</p>
+          </div>
+          <div class="flex flex-row items-center gap-2">
+            <img src="/ruby-on-rails-logo.svg" alt="Ruby on Rails Logo" class="w-8 h-8 p-1 bg-white" />
+            <p>Ruby on Rails</p>
+          </div>
+          <div class="flex flex-row items-center gap-2">
+            <img src="/js-logo.svg" alt="JS Logo" class="w-8 h-8" />
+            <p>Javascript</p>
+          </div>
+          <div class="flex flex-row items-center gap-2">
+            <img src="/react-logo.svg" alt="React Logo" class="w-8 h-8" />
+            <p>React</p>
+          </div>
+        </div>                
       </div>
     </div>
-
   </div>
 </div>
 
