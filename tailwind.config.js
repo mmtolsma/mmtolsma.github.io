@@ -6,7 +6,9 @@ export default {
       colors: {
         'base-card': '#1E1E1F',
         'card-border': '#444546',
-        'info-card': '#333333',
+        'dropdown': '#333333',
+        'sub-card': '#212123',
+        'sub-card-border': '#2b2b2b',
       },
       fontSize: {
         'xxs': ['0.625rem', {

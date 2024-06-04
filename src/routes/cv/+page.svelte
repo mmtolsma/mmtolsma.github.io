@@ -71,8 +71,6 @@
         </div>
       </div>
 
-      <!-- No idea how to show my skills accurately. -->
-      <!-- Not comfortable showing percentages because I have no idea what percent I am. -->
       <div class="skills mb-5">
         <div class="items-center justify-center mb-2">
           <span class="text-2xl lg:text-3xl text-yellow-500 fa fa-wrench mr-1"></span>
@@ -88,7 +86,7 @@
             <p>Ruby on Rails</p>
           </div>
           <div class="flex flex-row items-center gap-2">
-            <img src="/js-logo.svg" alt="JS Logo" class="w-8 h-8" />
+            <img src="/js-logo.svg" alt="JavaScript Logo" class="w-8 h-8" />
             <p>Javascript</p>
           </div>
           <div class="flex flex-row items-center gap-2">
