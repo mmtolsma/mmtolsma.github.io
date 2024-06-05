@@ -14,6 +14,9 @@ export default {
         'xxs': ['0.625rem', {
           lineHeight: '0.75rem'
         }],
+        'xxxs': ['0.475rem', {
+          lineHeight: '0.5rem'
+        }],
       }
     }
   },

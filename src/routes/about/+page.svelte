@@ -25,6 +25,7 @@
     <section>
       <div class="text-2xl lg:text-3xl mb-3">What I'm doing</div>
 
+      <!-- TODO: Move icon above text on mobile -->
       <div class="grid grid-cols-1 lg:grid-cols-2 gap-2">
         <div class="bg-sub-card border border-sub-card-border shadow-2xl rounded-2xl px-4 py-4 flex items-start gap-4">
           <img src="/frontend.svg" alt="webpage with html tag" class="w-12 h-12 p-1" />

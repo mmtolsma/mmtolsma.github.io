@@ -1,6 +1,7 @@
 <script>
   import { onMount } from 'svelte';
   import { navLinks } from '../linksData.js';
+  import Footer from "../components/Footer.svelte";
 
   let loaded = false;
 
@@ -14,9 +15,6 @@
 
   const filteredLinks = $navLinks.filter(link => link.url !== "/");
 
-  // $: marks the beginning of a reactive declaration. 
-  // It tells Svelte to watch the variables used within the 
-  // expression on the right side of the assignment (i.e. `loaded`). 
   $: transitionClass = `transition-opacity ease-in-out duration-1000 ${loaded ? 'opacity-100' : 'opacity-0'}`;
 </script>
 
@@ -34,8 +32,8 @@
         <h2 class="text-2xl sm:text-4xl text-center">website</h2>
       </div>
     </div>
-    <div class="mb-5 {transitionClass} delay-[1250ms]">  
-      <h2 class="text-lg sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl text-center">Where would you like to visit?</h2>
+    <div class="mb-5 md:mb-12 {transitionClass} delay-[1000ms]">  
+      <h2 class="text-lg sm:text-xl md:text-2xl lg:text-3xl xl:text-4xl text-center">Where would you like to visit?</h2>
     </div>
     <div class="mb-5 {transitionClass} delay-[1500ms]">
       <nav class="md:flex md:flex-rows-1 grid grid-cols-1 gap-1">
@@ -47,4 +45,5 @@
       </nav>
     </div>
   </div>
+  <Footer />
 </div>

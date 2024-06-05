@@ -72,11 +72,11 @@
       </div>
 
       <div class="skills mb-5">
-        <div class="items-center justify-center mb-2">
+        <div class="items-center justify-center mb-3">
           <span class="text-2xl lg:text-3xl text-yellow-500 fa fa-wrench mr-1"></span>
-          <span class="text-2xl lg:text-3xl font-bold">My Skills</span>
+          <span class="text-2xl lg:text-3xl font-bold">Tools & Languages</span>
         </div>
-        <div class="grid grid-cols-2 md:grid-cols-3 gap-2">
+        <div class="grid grid-cols-2 gap-3 md:grid-cols-3 xl:grid-cols-4">
           <div class="flex flex-row items-center gap-2">
             <img src="/ruby.svg" alt="Ruby Logo" class="w-8 h-8" />
             <p>Ruby</p>
@@ -92,6 +92,35 @@
           <div class="flex flex-row items-center gap-2">
             <img src="/react-logo.svg" alt="React Logo" class="w-8 h-8" />
             <p>React</p>
+          </div>
+          <div class="flex flex-row items-center gap-2">
+            <img src="/bootstrap-logo.svg" alt="Bootstrap Logo" class="w-8 h-8" />
+            <p>Bootstrap</p>
+          </div>
+          <div class="flex flex-row items-center gap-2">
+            <img src="/css-logo.svg" alt="CSS Logo" class="w-8 h-8" />
+            <p>CSS</p>
+          </div>
+          <div class="flex flex-row items-center gap-2">
+            <img src="/html-5-logo.svg" alt="HTML5 Logo" class="w-8 h-8" />
+            <p>HTML</p>
+          </div>
+        </div>                
+      </div>
+
+      <div class="funsies mb-3">
+        <div class="items-center justify-center mb-3">
+          <span class="text-2xl lg:text-3xl text-yellow-500 fa fa-flask mr-1"></span>
+          <span class="text-2xl lg:text-3xl font-bold">Exploring & Learning</span>
+        </div>
+        <div class="grid grid-cols-2 gap-3 md:grid-cols-3 xl:grid-cols-4">
+          <div class="flex flex-row items-center gap-2">
+            <img src="/svelte-logo.svg" alt="Svelte Logo" class="w-8 h-8" />
+            <p>Sveltekit</p>
+          </div>
+          <div class="flex flex-row items-center gap-2">
+            <img src="/tailwind-logo.svg" alt="Tailwind Logo" class="w-8 h-8 p-1" />
+            <p>Tailwind</p>
           </div>
         </div>                
       </div>
