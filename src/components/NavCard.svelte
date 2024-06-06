@@ -21,7 +21,7 @@
   }
 </script>
 
-<div class="bg-base-card border border-card-border rounded-2xl h-full py-1 sm:px-4 sm:py-4 lg:px-5 lg:pt-5">
+<div class="bg-base-card border border-card-border rounded-2xl h-full py-1 sm:px-4 sm:py-4 lg:px-5 lg:pt-5 overflow-auto">
   <!-- Desktop -->
   <div class="hidden lg:block">
     <div class="flex flex-col items-center">

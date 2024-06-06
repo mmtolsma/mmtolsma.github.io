@@ -12,8 +12,8 @@
     <div class="flex flex-col gap-3 justify-between xl:justify-normal">
       <div class="education">
         <div class="items-center md:justify-center mb-2">
-          <span class="text-2xl lg:text-3xl text-yellow-500 fa fa-school mr-1"></span>
-          <span class="text-2xl lg:text-3xl font-bold">Education</span>
+          <span class="text-xl sm:text-2xl lg:text-3xl text-yellow-500 fa fa-school mr-1"></span>
+          <span class="text-xl sm:text-2xl lg:text-3xl font-bold">Education</span>
         </div>
         
         <div class="mb-4">
@@ -41,8 +41,8 @@
 
       <div class="experience">
         <div class="items-center justify-center mb-2">
-          <span class="text-2xl lg:text-3xl text-yellow-500 fa fa-briefcase mr-1"></span>
-          <span class="text-2xl lg:text-3xl font-bold">Experience</span>
+          <span class="text-xl sm:text-2xl lg:text-3xl text-yellow-500 fa fa-briefcase mr-1"></span>
+          <span class="text-xl sm:text-2xl lg:text-3xl font-bold">Experience</span>
         </div>
         
         <div class="mb-4">
@@ -73,8 +73,8 @@
 
       <div class="skills mb-5">
         <div class="items-center justify-center mb-3">
-          <span class="text-2xl lg:text-3xl text-yellow-500 fa fa-wrench mr-1"></span>
-          <span class="text-2xl lg:text-3xl font-bold">Tools & Languages</span>
+          <span class="text-xl sm:text-2xl lg:text-3xl text-yellow-500 fa fa-wrench mr-1"></span>
+          <span class="text-xl sm:text-2xl lg:text-3xl font-bold">Tools & Languages</span>
         </div>
         <div class="grid grid-cols-2 gap-3 md:grid-cols-3 xl:grid-cols-4">
           <div class="flex flex-row items-center gap-2">
@@ -110,8 +110,8 @@
 
       <div class="funsies mb-3">
         <div class="items-center justify-center mb-3">
-          <span class="text-2xl lg:text-3xl text-yellow-500 fa fa-flask mr-1"></span>
-          <span class="text-2xl lg:text-3xl font-bold">Exploring & Learning</span>
+          <span class="text-xl sm:text-2xl lg:text-3xl text-yellow-500 fa fa-flask mr-1"></span>
+          <span class="text-xl sm:text-2xl lg:text-3xl font-bold">Exploring & Learning</span>
         </div>
         <div class="grid grid-cols-2 gap-3 md:grid-cols-3 xl:grid-cols-4">
           <div class="flex flex-row items-center gap-2">

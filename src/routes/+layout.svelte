@@ -6,9 +6,8 @@
 
 </script>
 
-<div class="flex min-h-dvh max-h-dvh p-3 sm:container sm:py-8 sm:mx-auto sm:max-w-[600px] md:max-w-[750px] lg:max-w-[950px] xl:max-w-[1200px] transition-all">
+<div class="flex min-h-dvh max-h-dvh p-2 sm:container sm:py-8 sm:mx-auto sm:max-w-[600px] md:max-w-[750px] lg:max-w-[950px] xl:max-w-[1200px] transition-all">
   {#if $page.url.pathname == '/'}
-    <!-- Home page styling -->
     <div class="flex-1">
       <slot />
     </div>
