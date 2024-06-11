@@ -8,7 +8,6 @@
 
 <div class="flex-1 overflow-y-auto">
   <div class="mx-3 mb-5 sm:mx-5">
-    
     <div class="flex flex-col gap-3 justify-between xl:justify-normal">
       <div class="education">
         <div class="items-center md:justify-center mb-2">

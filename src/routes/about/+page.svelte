@@ -12,7 +12,7 @@
   <div class="mx-3 mb-5 sm:mx-5">
     <!-- About me blurb -->
     <p>
-      I am a passionate Fullstack developer with three years of professional experience in creating and maintaining robust software solutions. Skilled in JavaScript with React for the front-end and Ruby on Rails for the back-end, I excel in developing fully integrated applications that meet diverse business needs.
+      I am a passionate fullstack developer with three years of professional experience in creating and maintaining robust software solutions. Skilled in JavaScript with React for the front-end and Ruby on Rails for the back-end, I excel in developing fully integrated applications that meet diverse business needs.
     </p>
     <br>
     <p>
