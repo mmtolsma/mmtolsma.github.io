@@ -67,8 +67,8 @@
                 {item.description}
               </p>
               {#if item.link}
-                <div class="mt-1">
-                  <a href={item.link} class="text-blue-500" target="_blank">
+                <div class="mt-5 sm:mt-1">
+                  <a href={item.link} class="button rounded-md bg-gray-700 p-2 sm:p-0 sm:rounded-none sm:bg-transparent sm:button-none sm:text-blue-500" target="_blank">
                     Link to App
                   </a>
                 </div>
@@ -81,31 +81,3 @@
     <br>
   </div>
 </div>
-
-<!-- <div class="grid auto-rows-fr grid-cols-1 gap-2">
-  {#each getFilteredItems() as item}
-    <div class="bg-sub-card border border-sub-card-border flex flex-col justify-center rounded-lg p-4 text-center sm:text-left">
-      <div class="sm:flex sm:flex-row items-center gap-5">
-        <div class="sm:flex-none sm:justify-start">
-          <img src="/{item.image}" class="w-16 h-16 mx-auto sm:mx-0" alt="Michael Tolsma smiling" />
-        </div>
-        <div>
-          <div class="text-2xl font-bold">
-            {item.name}
-          </div>
-          <p class="text-yellow-500">
-            {item.technologies.join(', ')}
-          </p>
-          <p>
-            {item.description}
-            </p>
-          {#if item.link}
-            <a href={item.link} class="text-blue-500">
-              {item.link}
-            </a>
-          {/if}
-        </div>
-      </div>
-    </div>
-  {/each}
-</div> -->
