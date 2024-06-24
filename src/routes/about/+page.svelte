@@ -16,7 +16,7 @@
     </p>
     <br>
     <p>
-      Years of work experience has allowed me to develop personal skills including management, organisational and logistic skills. I am highly-motivated and work hard, and am able to work well independently and within a team. I have a good sense of humour and sharp wit, am patient with people and experienced with teaching. I have discovered programming to be a passion and look forward to future challenges and growing my knowledge, skill and passion.
+      Years of work experience have allowed me to develop personal skills including management, organisational and logistic skills. I am highly-motivated and work hard, and am able to work well independently and within a team. I have a good sense of humour and sharp wit, am patient with people and experienced with teaching. I have discovered programming to be a passion and look forward to future challenges and growing my knowledge, skill and passion.
     </p>
     
     <br>
