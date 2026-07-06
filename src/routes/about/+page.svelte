@@ -12,11 +12,15 @@
   <div class="mx-3 mb-5 sm:mx-5">
     <!-- About me blurb -->
     <p>
-      I am a passionate fullstack developer with three years of professional experience in creating and maintaining robust software solutions. Skilled in JavaScript with React for the front-end and Ruby on Rails for the back-end, I excel in developing fully integrated applications that meet diverse business needs.
+      I am a full-stack software developer with five years of professional experience in Ruby on Rails and React, much of it as one of two primary engineers on the core backend of a production tutoring marketplace built inside a codebase over a decade old. I'm strong in domain modelling and safe refactoring, third-party platform integrations, AI/LLM features, and data pipelines, most of it in money-critical systems where correctness matters.
     </p>
     <br>
     <p>
-      Years of work experience have allowed me to develop personal skills including management, organisational and logistic skills. I am highly-motivated and work hard, and am able to work well independently and within a team. I have a good sense of humour and sharp wit, am patient with people and experienced with teaching. I have discovered programming to be a passion and look forward to future challenges and growing my knowledge, skill and passion.
+      I work best inside established codebases: understanding systems I didn't write, extending them, and refactoring them safely without breaking what's live. I'm highly-motivated, work well independently and within a small team, and have discovered programming to be a genuine passion. I look forward to future challenges and to growing my knowledge and skill.
+    </p>
+    <br>
+    <p>
+      Earlier on I also cut my teeth in mobile: during an internship I built and shipped cross-platform apps with Flutter, from requirements through to Google Play releases, including a GPS course-navigation tool rolled out across roughly 40 devices at a golf resort.
     </p>
     
     <br>

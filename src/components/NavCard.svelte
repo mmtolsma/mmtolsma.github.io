@@ -27,7 +27,10 @@
     <div class="flex flex-col items-center">
       <img src="/profile-pic.png" class="mb-3 rounded w-32 h-32" alt="Michael Tolsma smiling" />
       <div class="text-2xl font-bold mb-3">Michael M. Tolsma</div>
-      <div class="py-1 px-2 mb-5 text-sm rounded-lg bg-gray-700">Fullstack Developer</div>
+      <div class="py-1 px-2 mb-3 text-sm rounded-lg bg-gray-700">Fullstack Developer</div>
+      <a href="https://www.linkedin.com/in/michael-tolsma-46a296209" target="_blank" rel="noopener" aria-label="LinkedIn profile" class="mb-5 text-2xl text-gray-400 hover:text-white">
+        <span class="fa-brands fa-linkedin"></span>
+      </a>
       <span class="flex-grow mb-5 border-t border-gray-700 w-full"></span>
       <nav class="grid grid-cols-1 gap-1">
         {#each $navLinks as link}
@@ -47,6 +50,9 @@
       <div class="ml-4">
         <div class="text-2xl font-bold mb-3">Michael M. Tolsma</div>
         <div class="inline-block text-sm rounded-lg bg-gray-700 px-2 py-1">Fullstack Developer</div>
+        <a href="https://www.linkedin.com/in/michael-tolsma-46a296209" target="_blank" rel="noopener" aria-label="LinkedIn profile" class="ml-2 text-xl text-gray-400 hover:text-white">
+          <span class="fa-brands fa-linkedin"></span>
+        </a>
       </div>
       <div class="absolute top-0 right-0 mr-3">
         <button on:click={handleClick} class="flex items-center">
@@ -79,6 +85,9 @@
         <div class="ml-4">
           <div class="font-bold">Michael M. Tolsma</div>
           <div class="inline-block text-xxs rounded-lg bg-gray-700 p-1">Fullstack Developer</div>
+          <a href="https://www.linkedin.com/in/michael-tolsma-46a296209" target="_blank" rel="noopener" aria-label="LinkedIn profile" class="ml-2 text-gray-400 hover:text-white">
+            <span class="fa-brands fa-linkedin"></span>
+          </a>
         </div>
       </div>
       <div class="flex justify-end mr-3">
