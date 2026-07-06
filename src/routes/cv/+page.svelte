@@ -31,7 +31,7 @@
 
 <div class="flex-1 overflow-y-auto">
   <div class="mx-3 mb-5 sm:mx-5">
-    <div class="flex flex-col gap-3 justify-between xl:justify-normal">
+    <div class="flex flex-col gap-6">
       <div class="profile">
         <div class="items-center md:justify-center mb-2">
           <span class="text-xl sm:text-2xl lg:text-3xl text-yellow-500 fa fa-user mr-1"></span>
@@ -75,7 +75,7 @@
         </div>
       </div>
 
-      <div class="skills mb-5">
+      <div class="skills">
         <div class="items-center justify-center mb-3">
           <span class="text-xl sm:text-2xl lg:text-3xl text-yellow-500 fa fa-wrench mr-1"></span>
           <span class="text-xl sm:text-2xl lg:text-3xl font-bold">Skills</span>
@@ -129,7 +129,7 @@
         </div>
       </div>
 
-      <div class="languages mb-3">
+      <div class="languages">
         <div class="items-center justify-center mb-2">
           <span class="text-xl sm:text-2xl lg:text-3xl text-yellow-500 fa fa-language mr-1"></span>
           <span class="text-xl sm:text-2xl lg:text-3xl font-bold">Languages</span>

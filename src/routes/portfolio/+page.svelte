@@ -38,23 +38,25 @@
 
 <div class="flex-1 overflow-y-auto">
   <div class="mx-3 mb-5 sm:mx-5">
-    <div class="mb-3">
-      <button class={`py-2 px-4 ${activeTab === 'all' ? 'border-b-2 border-yellow-500 text-yellow-500' : ''}`} on:click={() => selectTab("all")}>
-        All
-      </button>
-      {#each uniqueCategories as category}
-        <button class={`py-2 px-4 ${activeTab === category ? 'border-b-2 border-yellow-500 text-yellow-500' : ''}`} on:click={() => selectTab(category)}>
-          {humanize(category)}
+    {#if uniqueCategories.length > 1}
+      <div class="mb-3">
+        <button class={`py-2 px-4 ${activeTab === 'all' ? 'border-b-2 border-yellow-500 text-yellow-500' : ''}`} on:click={() => selectTab("all")}>
+          All
         </button>
-      {/each}
-    </div>
+        {#each uniqueCategories as category}
+          <button class={`py-2 px-4 ${activeTab === category ? 'border-b-2 border-yellow-500 text-yellow-500' : ''}`} on:click={() => selectTab(category)}>
+            {humanize(category)}
+          </button>
+        {/each}
+      </div>
+    {/if}
 
     <div class="grid grid-cols-1 gap-3">
       {#each getFilteredItems() as item}
         <div class="bg-sub-card border border-sub-card-border rounded-lg p-4 text-center sm:text-left">
           <div class="sm:flex sm:flex-row items-center gap-5">
             <div class="sm:flex-none sm:justify-start">
-              <img src="/{item.image}" class="w-16 h-16 mb-2 mx-auto sm:mb-0 sm:mx-0" alt="Michael Tolsma smiling" />
+              <img src="/{item.image}" class="w-16 h-16 object-contain mb-2 mx-auto sm:mb-0 sm:mx-0" alt="{item.name} app icon" />
             </div>
             <div>
               <div class="text-2xl font-bold mb-1">
@@ -68,7 +70,7 @@
               </p>
               {#if item.link}
                 <div class="mt-5 sm:mt-1">
-                  <a href={item.link} class="button rounded-md bg-gray-700 p-2 sm:p-0 sm:rounded-none sm:bg-transparent sm:button-none sm:text-blue-500" target="_blank">
+                  <a href={item.link} class="button rounded-md bg-gray-700 p-2 sm:p-0 sm:rounded-none sm:bg-transparent sm:button-none sm:text-yellow-500" target="_blank">
                     Link to App
                   </a>
                 </div>
